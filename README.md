@@ -2,6 +2,9 @@
 
 Welcome to the Code Editor Animation project! This project showcases an interactive and visually engaging code editor animation. You can see a live demo of this project at [Code Editor Animation Demo](https://code-editor-anime.vercel.app/).
 
+![Alt Text](./img/code-editor-anime.png)
+
+
 # Getting started
 
 1. install tailwindcss or use cdn
