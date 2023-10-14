@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Editor Anime</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./output.css" />
+    <!-- js -->
+    <script type="module" src="/main.js"></script>
+  </head>
+  <body>
+    <div class="min-h-screen flex items-center justify-center bg-gray-700">
+      <!-- EDITOR -->
+      <div
+        class="h-[400px] w-[330px] rounded-lg border-[0.1px] border-gray-700 bg-gray-950 font-mono xs:text-sm sm:w-96 md:w-[600px] lg:max-w-lg text-white"
+      >
+        <div class="flex items-center justify-start">
+          <!-- border-b-[0.1px] border-gray-700 -->
+          <span class="border-b-[0.1px] border-gray-700 p-2 py-4">
+            <!-- SVG -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 512 512"
+              class="dot-red"
+            >
+              <style>
+                .dot-red {
+                  fill: #f50000;
+                }
+              </style>
+              <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
+            </svg>
+            <!-- SVG -->
+          </span>
+          <span class="border-b-[0.1px] border-gray-700 p-2 py-4">
+            <!-- SVG -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 512 512"
+              class="dot-yellow"
+            >
+              <style>
+                .dot-yellow {
+                  fill: #ffc400;
+                }
+              </style>
+              <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
+            </svg>
+            <!-- SVG -->
+          </span>
+          <span class="border-b-[0.1px] border-gray-700 p-2 py-4">
+            <!-- SVG -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 512 512"
+              class="dot-green"
+            >
+              <style>
+                .dot-green {
+                  fill: #31f500;
+                }
+              </style>
+              <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
+            </svg>
+            <!-- SVG -->
+          </span>
+          <span class="border-x-[0.1px] border-gray-700 p-3"> index.jsx </span>
+          <div class="w-full border-b-[0.1px] border-gray-700 p-3 text-black">
+            s
+          </div>
+        </div>
+        <div class="flex h-[349px] items-start justify-start">
+          <div
+            class="h-full space-y-2 rounded-bl-[0.2rem] bg-gray-900 px-2 py-5 xs:space-y-1"
+          >
+            <div class="text-xs">01</div>
+            <div class="text-xs">02</div>
+            <div class="text-xs">03</div>
+            <div class="text-xs">04</div>
+            <div class="text-xs">05</div>
+            <div class="text-xs">06</div>
+            <div class="text-xs">07</div>
+            <div class="text-xs">08</div>
+            <div class="text-xs">09</div>
+            <div class="text-xs">10</div>
+            <div class="text-xs">11</div>
+            <div class="text-xs">12</div>
+            <div class="text-xs">13</div>
+          </div>
+          <p id="type-code" class="code-editor"></p>
+        </div>
+      </div>
+      <!-- END OF EDITOR -->
+    </div>
+  </body>
+</html>
