@@ -4,7 +4,7 @@ Welcome to the Code Editor Animation project! This project showcases an interact
 
 # Getting started
 
-As of now, the code is messy, and I have no plans to update it. If you are interested in implementing this, I will be happy to help. Just contact me.
+If you need help implementing this, I will be happy to help. Just contact me.
 
 ## Contact
 
