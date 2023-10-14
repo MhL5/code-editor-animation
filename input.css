@@ -4,25 +4,16 @@
 
 @layer components {
   .code-editor {
-    /* padding: 0.5rem;
-    padding-left: 1rem;
-    padding-top: 1rem; */
     @apply p-2 pl-4 pt-4;
   }
-  .code-editor .blue {
-    @apply text-blue-600;
-    /* color: rgb(89, 0, 255); */
-  }
+
   .code-editor .red {
-    /* color: red; */
     @apply text-red-600;
   }
   .code-editor .green {
-    /* color: green; */
-    @apply text-blue-600;
+    @apply text-green-600;
   }
   .code-editor .purple {
-    /* color: purple; */
     @apply text-purple-600;
   }
 }
