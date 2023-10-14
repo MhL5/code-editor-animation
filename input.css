@@ -17,3 +17,9 @@
     @apply text-purple-600;
   }
 }
+
+@media (max-width: 600px) {
+  .xs-text-sm {
+    font-size: 0.875rem !important;
+  }
+}

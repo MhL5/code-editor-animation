@@ -693,6 +693,12 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+@media (max-width: 600px) {
+  .xs-text-sm {
+    font-size: 0.875rem !important;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:w-96 {
     width: 24rem;
