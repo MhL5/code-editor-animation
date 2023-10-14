@@ -4,6 +4,10 @@ Welcome to the Code Editor Animation project! This project showcases an interact
 
 # Getting started
 
+1. install tailwindcss or use cdn
+2. install typeIt js library using ```npm install typeit ```
+3. copy and paste the codes inside index.html input.css and script.js
+
 If you need help implementing this, I will be happy to help. Just contact me.
 
 ## Contact
