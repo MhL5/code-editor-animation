@@ -1,11 +1,17 @@
 # Code Editor Animation Project
 
-Welcome to the Code Editor Animation project! This project showcases an interactive and visually engaging code editor animation. You can see a live demo of this project at [Code Editor Animation Demo](https://code-editor-anime.vercel.app/).
+Welcome to the Code Editor Animation project! This project is a simple showcases of a code editor animation made using tailwindcss and typeIt js. You can see a live demo of this project at [Code Editor Animation Demo](https://code-editor-anime.vercel.app/).
 
 ![Alt Text](./img/code-editor-anime.png)
 
 
 # Getting started
+
+1.git clone the repo
+2.npm i
+3.run the code
+
+or you can simply :
 
 1. install tailwindcss or use cdn
 2. install typeIt js library using ```npm install typeit ```
